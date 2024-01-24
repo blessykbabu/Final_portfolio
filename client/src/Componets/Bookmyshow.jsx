@@ -11,7 +11,7 @@ export default function Bookmyshow() {
           style={{ textAlign: "center", display: "inline-block" }}
           className="m-3"
         >
-          BookMyShow
+          Movie Hub
         </h5>
         <p  style={{ textAlign: "justify", color: "#999999"}}>
           This is an innovative platform developed using HTML, Express,

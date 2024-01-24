@@ -1,5 +1,4 @@
 
-import pic from "../images/pic.png";
 import About from "./About";
 import Education from "./Education";
 import { Link as ScrollLink, Element } from "react-scroll";
@@ -20,8 +19,8 @@ export default function Home() {
           <span style={{ color: "#FFBD39"}}>Hello !</span>
         </h6>
         <h3>
-          <span style={{color:"white"}}> I'm </span>
-          <span style={{ color: "#FFBD39" }}>BLESSY K BABU</span>
+          <span  className="b" style={{color:"white"}}> I'm </span>
+          <span  className="b" style={{ color: "#FFBD39" }}>BLESSY K BABU</span>
         </h3>
         <h5  className="dev" style={{color:"white"}}>FULL STACK DEVELOPER</h5>
           <button className="open-cv-button mb-5 " onClick={openResume}>
@@ -44,8 +43,8 @@ export default function Home() {
           </div>
 
         </div>
-        <div className="row">
-        <p id="text" style={{color:"#999999"}}>
+        <div className="row ">
+        <p id="text"  className="about" style={{color:"#999999",textAlign:"justify"}}>
               I am a dedicated MERN stack developer with a strong foundation
               gained through a rewarding internship. My passion for software
               development drives my commitment

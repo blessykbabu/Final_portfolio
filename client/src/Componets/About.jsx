@@ -19,7 +19,7 @@ export default function About() {
       <div className={`animated-element ab ${animated ? 'animate' : ''}`}>
       <div className="container-fluid">
         <h1
-          className="mb-4 m_head"
+          className="mb-4 m_head mt-5"
           style={{ textAlign: "center", color: "white" }}
         >
           GETTING TO KNOW ME
