@@ -10,12 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gasp": "^0.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^9.5.3",
     "react-router-dom": "^6.21.3",
     "react-scroll": "^1.9.0",
-    "react-scroll-trigger": "^0.6.14"
+    "react-scroll-trigger": "^0.6.14",
+    "react-slick": "^0.30.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

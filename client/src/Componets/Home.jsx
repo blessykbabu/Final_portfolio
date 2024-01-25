@@ -3,6 +3,8 @@ import Education from "./Education";
 import "./style.css";
 import { Link as ScrollLink, Element } from "react-scroll";
 import Projects from "./Projects";
+import Skills from "./Skills";
+import Contact from "./Contact";
 export default function Home() {
   const openResume = () => {
     const resumePath = "src/files/BLESSY K BABU.pdf";
@@ -71,6 +73,12 @@ export default function Home() {
       </Element>
       <Element name="projects">
         <Projects />
+      </Element>
+      <Element name="skills">
+        <Skills/>
+      </Element>
+      <Element>
+        <Contact/>
       </Element>
     </>
   );

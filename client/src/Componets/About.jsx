@@ -18,12 +18,12 @@ export default function About() {
       <ScrollTrigger onEnter={handleEnterViewport} onExit={handleExitViewport}>
       <div className={`animated-element ab ${animated ? 'animate' : ''}`}>
       <div className="container-fluid">
-        <h1
+        <h2
           className="mb-4 m_head mt-5"
           style={{ textAlign: "center", color: "white" }}
         >
           GETTING TO KNOW ME
-        </h1>
+        </h2>
 
         <div className="row">
          
@@ -50,23 +50,23 @@ export default function About() {
               <table className=" tab" style={{ color: "white" }}>
                 <tbody>
                   <tr>
-                    <td style={{ padding: 20 }}>Name</td>
-                    <td style={{ padding: 20,color: "#999999" }}>Blessy K Babu</td>
+                    <td style={{ padding: 20 ,fontWeight:"bolder",fontSize:"16px"}}>Name</td>
+                    <td style={{ padding: 20,color: "#999999" ,fontSize:"16px"}}>Blessy K Babu</td>
                   </tr>
                   <tr>
-                    <td style={{ padding: 20 }}>Date Of Birth</td>
-                    <td style={{ padding: 20 ,color: "#999999"}}>October 11,1999</td>
+                    <td style={{padding: 20 ,fontWeight:"bolder",fontSize:"16px" }}>Date Of Birth</td>
+                    <td style={{ padding: 20 ,color: "#999999",fontSize:"16px"}}>October 11,1999</td>
                   </tr>
                   <tr>
-                    <td style={{ padding: 20 }}>Address</td>
-                    <td style={{ padding: 20,color: "#999999" }}>
+                    <td style={{ padding: 20 ,fontWeight:"bolder",fontSize:"16px"}}>Address</td>
+                    <td style={{ padding: 20,color: "#999999",fontSize:"16px" }}>
                       Kaleeckal ,Elimullumplackal P O ,Avolikuzhy
                     </td>
                   </tr>
                   <tr>
-                    <td style={{ padding: 20 }}>Email</td>
+                    <td style={{ padding: 20 ,fontWeight:"bolder",fontSize:"16px"}}>Email</td>
 
-                    <td style={{ padding: 20 ,color: "#999999"}}>blessykbabu5@gmail.com</td>
+                    <td style={{ padding: 20 ,color: "#999999",fontSize:"16px"}}>blessykbabu5@gmail.com</td>
                   </tr>
                 </tbody>
               </table>

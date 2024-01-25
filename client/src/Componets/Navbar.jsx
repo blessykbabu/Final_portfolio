@@ -79,17 +79,34 @@ export default function Navabr(){
        
         </li>
         <li className="nav-item">
-          <Link to="/skills" className="nav-link active" style={{color:"white"}}>
+          <ScrollLink
+            to="skills"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="nav-link active"
+            style={{ color: "white" }}
+          >
             Skills
-          </Link>
+          </ScrollLink>
+       
         </li>
 
-        <li className="nav-item active">
-          <Link className="nav-link active" style={{color:"white"}}>
+        <li className="nav-item">
+          <ScrollLink
+            to="Contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="nav-link active"
+            style={{ color: "white" }}
+          >
             Contact
-          </Link>
-        </li>
+          </ScrollLink>
        
+        </li>
       </ul>
     </div>
   </div>
