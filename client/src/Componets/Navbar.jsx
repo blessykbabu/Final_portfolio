@@ -24,12 +24,13 @@ export default function Navabr(){
       <ul className="navbar-nav">
         <li className="nav-item">
         <ScrollLink
+        
             to="home"
             spy={true}
             smooth={true}
             offset={-70} 
             duration={500}
-            className="nav-link active nv-link"
+            className="nav-link active nv-link nvbtn"
             aria-current="page"
             style={{ color: "white" }}
           >
@@ -43,7 +44,7 @@ export default function Navabr(){
             smooth={true}
             offset={-70}
             duration={500}
-            className="nav-link active"
+            className="nav-link active nvbtn"
             style={{ color: "white" }}
           >
             About
@@ -57,7 +58,7 @@ export default function Navabr(){
             smooth={true}
             offset={-70}
             duration={500}
-            className="nav-link active"
+            className="nav-link active nvbtn"
             style={{ color: "white" }}
           >
             Education
@@ -71,7 +72,7 @@ export default function Navabr(){
             smooth={true}
             offset={-70}
             duration={500}
-            className="nav-link active"
+            className="nav-link active nvbtn"
             style={{ color: "white" }}
           >
             Projects
@@ -85,7 +86,7 @@ export default function Navabr(){
             smooth={true}
             offset={-70}
             duration={500}
-            className="nav-link active"
+            className="nav-link active nvbtn"
             style={{ color: "white" }}
           >
             Skills
@@ -100,7 +101,7 @@ export default function Navabr(){
             smooth={true}
             offset={-70}
             duration={500}
-            className="nav-link active"
+            className="nav-link active nvbtn"
             style={{ color: "white" }}
           >
             Contact

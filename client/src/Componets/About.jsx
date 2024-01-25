@@ -24,7 +24,7 @@ export default function About() {
               GETTING TO KNOW ME
             </h2>
 
-            <p style={{color:"#999999",textAlign:"justify"}}>
+            <p   className="about" style={{color:"#999999",textAlign:"justify"}}>
             Culminating my MCA journey, I delved into the dynamic world of
               software development with a focused MERN stack internship. This
               experience enriched my skills in MongoDB, Express.js, React, and
@@ -115,6 +115,7 @@ export default function About() {
                         padding: 20,
                         color: "#999999",
                         fontSize: "16px",
+                        verticalAlign:"top"
                       }}
                     >
                       Kaleeckal ,Elimullumplackal P O ,Avolikuzhy

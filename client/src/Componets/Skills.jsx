@@ -44,8 +44,8 @@ export default function Skills() {
                   </div>
                 </div>
               </div> */}
-                 <div className="row">
-                    <div className="col-lg-4 col-md-sm-lg-12 mb-3 ">
+                 <div className="row s-row">
+                    <div className="col-lg-4 mb-3 s">
                  
               <div className="panel">
                 <div className="ring">
@@ -98,19 +98,12 @@ export default function Skills() {
                 <div className="ring">
                   <div className="card card3 scard" />
                   <div className="border">
-                    {/* <p className="title">Egypt</p> */}
                     <div className="slide">
-                      {/* <h6 className="para">Latest Deals from Heathrow</h6> */}
                       <div className="line">
                         <h6 className="para">85%</h6>{" "}
                         <i className="fa fa-plane" aria-hidden="true" />
-                        {/* <h6 className="para">£399</h6> */}
                       </div>
-                      {/* <div className="line">
-                          <h6 className="para">RTN</h6>{" "}
-                          <i className="fa fa-plane" aria-hidden="true" />
-                          <h6 className="para">£257</h6>
-                        </div> */}
+                    
                     </div>
                   </div>
                 </div>
@@ -167,7 +160,145 @@ export default function Skills() {
               </div>
               </div>
 
+              <div className="col-lg-4 mb-3 mt-3">
+              <div className="panel">
+                <div className="ring">
+                  <div className="card card6 scard" />
+                  <div className="border">
+                    <div className="slide">
+                      <div className="line">
+                        <h6 className="para">85%</h6>{" "}
+                        <i className="fa fa-plane" aria-hidden="true" />
+                      </div>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
              </div>
+
+
+
+
+             <div className="row">
+                <div className="col-lg-4 mt-3">
+              <div className="panel">
+                <div className="ring">
+                  <div className="card  scard card7" />
+                  <div className="border">
+                    {/* <p className="title">Belize</p> */}
+                    <div className="slide">
+                      {/* <h6 className="para">Latest Deals from Heathrow</h6> */}
+                      <div className="line">
+                        <h6 className="para">90%</h6>{" "}
+                        <i className="fa fa-plane" aria-hidden="true" />
+                        {/* <h6 className="para">£999</h6> */}
+                      </div>
+                      {/* <div className="line">
+                        <h6 className="para">RTN</h6>{" "}
+                        <i className="fa fa-plane" aria-hidden="true" />
+                        <h6 className="para">£745</h6>
+                      </div> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+                <div className="col-lg-4 mt-3">
+              <div className="panel">
+                <div className="ring">
+                  <div className="card  scard card8" />
+                  <div className="border">
+                    {/* <p className="title">Belize</p> */}
+                    <div className="slide">
+                      {/* <h6 className="para">Latest Deals from Heathrow</h6> */}
+                      <div className="line">
+                        <h6 className="para">90%</h6>{" "}
+                        <i className="fa fa-plane" aria-hidden="true" />
+                        {/* <h6 className="para">£999</h6> */}
+                      </div>
+                      {/* <div className="line">
+                        <h6 className="para">RTN</h6>{" "}
+                        <i className="fa fa-plane" aria-hidden="true" />
+                        <h6 className="para">£745</h6>
+                      </div> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div className="col-lg-4 mb-3 mt-3">
+              <div className="panel">
+                <div className="ring">
+                  <div className="card card9 scard" />
+                  <div className="border">
+                    <div className="slide">
+                      <div className="line">
+                        <h6 className="para">85%</h6>{" "}
+                        <i className="fa fa-plane" aria-hidden="true" />
+                      </div>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+             </div>
+
+
+
+
+             <div className="row">
+                <div className="col-lg-4 mt-3">
+              <div className="panel">
+                <div className="ring">
+                  <div className="card  scard card10" />
+                  <div className="border">
+                    {/* <p className="title">Belize</p> */}
+                    <div className="slide">
+                      {/* <h6 className="para">Latest Deals from Heathrow</h6> */}
+                      <div className="line">
+                        <h6 className="para">90%</h6>{" "}
+                        <i className="fa fa-plane" aria-hidden="true" />
+                        {/* <h6 className="para">£999</h6> */}
+                      </div>
+                      {/* <div className="line">
+                        <h6 className="para">RTN</h6>{" "}
+                        <i className="fa fa-plane" aria-hidden="true" />
+                        <h6 className="para">£745</h6>
+                      </div> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div className="col-lg-4 mt-3">
+              <div className="panel">
+                <div className="ring">
+                  <div className="card card11 scard" />
+                  <div className="border">
+                    <div className="slide">
+                      <div className="line">
+                        <h6 className="para">85%</h6>{" "}
+                        <i className="fa fa-plane" aria-hidden="true" />
+                      </div>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+             
+
+             </div>
+
+
+
             </div>
             {/* <div className="skills-container">
               {skillsData.map((skill, index) => (

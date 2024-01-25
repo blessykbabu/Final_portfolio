@@ -78,7 +78,7 @@
   background-size: 100% 100%;
 }
 .card4 {
-  background-image: url("../images/node.png");
+  background-image: url("https://code-maven.com/img/node.png");
   background-repeat: no-repeat;
   background-size: 90% 95%;
 }
@@ -87,7 +87,36 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
+.card6 {
+  background-image: url("../images/ex.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.card7 {
+  background-image: url("../images/mongo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.card8 {
+  background-image: url("../images/py.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.card9 {
+  background-image: url("../images/git.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.card10 {
+  background-image: url("../images/tailw.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.card11 {
+  background-image: url("../images/boot.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
 .ring:before, .ring:after {
   content: "";

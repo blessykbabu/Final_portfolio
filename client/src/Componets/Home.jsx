@@ -5,6 +5,7 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import pic from "../images/pic.png"
 export default function Home() {
   const openResume = () => {
     const resumePath = "src/files/BLESSY K BABU.pdf";
@@ -16,7 +17,7 @@ export default function Home() {
       <Element name="home">
         <div className="container-fluid home animate__animated animate__slideInDown animate__duration-20s animate__delay-1s">
         <div className="row ">
-            <div className="col-lg-6 name">
+            <div className="col name">
               <h6>
                 <span style={{ color: "#FFBD39" }}>Hello !</span>
               </h6>
@@ -37,7 +38,9 @@ export default function Home() {
               </button>
              
             </div>
-            <div className="col-lg-6 img">{/* <img src={pic} /> */}</div>
+            <div className="col img">
+            <img class="framed" src={pic} alt="random image"/>
+              </div>
           </div>
           {/* <div className="row ">
             <p

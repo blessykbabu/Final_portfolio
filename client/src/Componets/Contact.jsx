@@ -1,7 +1,26 @@
 // import phone from "../image/phone.png";
 // import ad from "../image/ad.png";
 // import email from "../image/email.png";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import phn from "../images/phn.png";
+import loc from "../images/location.png";
+import em from "../images/em.png";
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_kf4zhds",
+      "template_ffkodkc",
+      form.current,
+      "R4GOnZ1Nmg7KO4hqT"
+    );
+    e.target.reset();
+  };
+
   return (
     <>
       <div className="container-fluid">
@@ -19,10 +38,43 @@ export default function Contact() {
           together.
         </p>
 
-       
+        <div className="container mt-4">
+          <div className="row">
+            <div className="col mt-2">
+              <div className="card ad" style={{ width: "18rem" }}>
+                <img src={loc} height={30} width={30} alt="..." />
+                <div className="card-body">
+                  <p style={{color:"white"}} className="card-text">
+                   Kaleeckal,Elimullumplackal P O,Avolikuzhy
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col mt-2">
+              <div className="card ad" style={{ width: "18rem" }}>
+                <img src={phn} height={30} width={30} alt="..." />
+                <div className="card-body">
+                  <p  style={{color:"white"}} className="card-text">
+                    +91790230156
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col mt-2">
+              <div className="card ad" style={{ width: "18rem" }}>
+                <img src={em}  height={30} width={30} alt="..." />
+                <div className="card-body">
+                  <p  style={{color:"white"}}className="card-text">
+                   blessykbabu5@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <div className="container ">
-          <form className="mx-auto">
+        <div className="container mt-4 ">
+          <form ref={form} onSubmit={sendEmail} className="mx-auto">
             <div className="mb-3 ">
               <input
                 type="password"
@@ -62,7 +114,7 @@ export default function Contact() {
                 style={{ width: 300 }}
               />
             </div>
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn send mb-5">
               Send Message
             </button>
           </form>
