@@ -138,9 +138,10 @@ export default function Projects() {
             </main>
             </div>
 
-            <div className="row">{selectedComponent}</div>
           </div>
         </div>
+        <div className="row">{selectedComponent}</div>
+
       </ScrollTrigger>
     </>
   );
