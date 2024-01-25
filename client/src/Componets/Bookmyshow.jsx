@@ -5,7 +5,7 @@ import git from "../images/git.png";
 export default function Bookmyshow() {
   return (
     <>
-      <div className="container prj">
+      <div className="container-fluid prj">
         <img src={web} style={{ display: "inline-block" }} />{" "}
         <h5
           style={{ textAlign: "center", display: "inline-block",color:"white" }}

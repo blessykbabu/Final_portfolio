@@ -4,7 +4,7 @@ import git from "../images/git.png"
 export default function Ezy(){
     return(
         <>
-          <div className="container prj">
+          <div className="container-fluid prj">
         <img src={web} style={{display:"inline-block"}} /> <h5 style={{textAlign:"center",display:"inline-block",color:"white"}} className="m-3">E-commerce</h5>
           <p  style={{ textAlign: "justify", color: "#999999"}}>
             React E-Commerce Platform with MongoDB: Connecting Sellers and
