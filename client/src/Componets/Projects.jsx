@@ -11,15 +11,15 @@ import Blog from "./Blog";
 import Bookmyshow from "./Bookmyshow";
 import ScrollTrigger from "react-scroll-trigger";
 export default function Projects() {
-    const [animated, setAnimated] = useState(false);
+  const [animated, setAnimated] = useState(false);
 
-    const handleEnterViewport = () => {
-      setAnimated(true);
-    };
-  
-    const handleExitViewport = () => {
-      setAnimated(false);
-    }
+  const handleEnterViewport = () => {
+    setAnimated(true);
+  };
+
+  const handleExitViewport = () => {
+    setAnimated(false);
+  };
   const [selectedComponent, setSelectedComponent] = useState(null);
 
   const handleLinkClick = (component) => {
@@ -28,105 +28,128 @@ export default function Projects() {
   };
   return (
     <>
-
-<ScrollTrigger onEnter={handleEnterViewport} onExit={handleExitViewport}>
-      <div className={`animated-element pj mt-5 b-5 ${animated ? 'animate' : ''}`}>
-      <div className="container-fluid">
-     <h1 className="mb-4 m_head"
-          style={{ textAlign: "center", color: "white" }}>
-          Projects
-        </h1>
-
-       
-
-
-
-            
-   <main className="page-content">
-   <div className="card pcard">
-    <div className="content">
-      <h4 className="copy">Employee Managemnet System</h4>
-      <div className="d-flex ">
-      <button className="btn">
-       <Link to="https://github.com/blessykbabu/ems_production"> <img src={git}/></Link>
-        </button>
-  <button className="btn ms-2">
-  <Link   to="/projects/ems" onClick={() => handleLinkClick(<Ems/>)} style={{color:"white",textDecoration:"none"}}>Read</Link>
-
-        </button>
-        </div>
-    </div>
-  </div>
-  <div className="card pcard">
-    <div className="content">
-      <h4 className="copy">E-Commerce</h4>
-      {/* <p className="copy title">
+      <ScrollTrigger onEnter={handleEnterViewport} onExit={handleExitViewport}>
+        <div
+          className={`animated-element pj mt-5 b-5 ${
+            animated ? "animate" : ""
+          }`}
+        >
+          <div className="container-fluid">
+            <h1
+              className="mb-4 m_head"
+              style={{ textAlign: "center", color: "white" }}
+            >
+              Projects
+            </h1>
+            <div className="container">
+            <main className="page-content">
+              
+              <div className="card pcard">
+                <div className="content">
+                  <h4 className="copy">Employee Managemnet System</h4>
+                  <div className="d-flex ">
+                    <button className="btn">
+                      <Link to="https://github.com/blessykbabu/ems_production">
+                        {" "}
+                        <img src={git} />
+                      </Link>
+                    </button>
+                    <button className="btn ms-2">
+                      <Link
+                        to="/projects/ems"
+                        onClick={() => handleLinkClick(<Ems />)}
+                        style={{ color: "white", textDecoration: "none" }}
+                      >
+                        Read
+                      </Link>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="card pcard">
+                <div className="content">
+                  <h4 className="copy">E-Commerce</h4>
+                  {/* <p className="copy title">
         Plan your next beach trip with these fabulous destinations
       </p> */}
-      <div className="d-flex">
-      <button className="btn">
-        <Link to="https://github.com/blessykbabu/e-prjct"><img src={git}/></Link>
-        </button>
-        <button className="btn ms-2">
-      <Link to="/projects/ezy" onClick={() => handleLinkClick(<Ezy />)} style={{color:"white",textDecoration:"none"}}>Read</Link>
+                  <div className="d-flex">
+                    <button className="btn">
+                      <Link to="https://github.com/blessykbabu/e-prjct">
+                        <img src={git} />
+                      </Link>
+                    </button>
+                    <button className="btn ms-2">
+                      <Link
+                        to="/projects/ezy"
+                        onClick={() => handleLinkClick(<Ezy />)}
+                        style={{ color: "white", textDecoration: "none" }}
+                      >
+                        Read
+                      </Link>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="card pcard">
+                <div className="content">
+                  <h4 className="copy">Blog</h4>
+                  <div className="d-flex">
+                    <button className="btn">
+                      <Link to="https://github.com/blessykbabu/bloger">
+                        {" "}
+                        <img src={git} />
+                      </Link>
+                    </button>
+                    <button className="btn ms-2">
+                      <Link
+                        to="/projects/blogs"
+                        onClick={() => handleLinkClick(<Blog />)}
+                        style={{ color: "white", textDecoration: "none" }}
+                      >
+                        Read
+                      </Link>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="card pcard">
+                <div className="content">
+                  <h4 className="copy">Movie Hub</h4>
+                  <div className="d-flex">
+                    <button className="btn">
+                      <Link to="https://github.com/blessykbabu/bookmyshow">
+                        {" "}
+                        <img src={git} />
+                      </Link>
+                    </button>
+                    <button className="btn ms-2">
+                      <Link
+                        to="/projects/movieHub"
+                        onClick={() => handleLinkClick(<Bookmyshow />)}
+                        style={{ color: "white", textDecoration: "none" }}
+                      >
+                        {" "}
+                        Read
+                      </Link>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </main>
+            </div>
 
-        </button>
-
+            <div className="row">{selectedComponent}</div>
+          </div>
         </div>
-    </div>
-  </div>
-  <div className="card pcard">
-    <div className="content">
-      <h4 className="copy">Blog</h4>
-      <div className="d-flex">
-      <button className="btn">
-       <Link to="https://github.com/blessykbabu/bloger"> <img src={git}/></Link>
-        </button>
-        <button className="btn ms-2">
-        <Link to="/projects/blogs"  onClick={() => handleLinkClick(<Blog />)} style={{color:"white",textDecoration:"none"}} >Read</Link>
-        </button>
-        </div>
-    </div>
-  </div>
-  <div className="card pcard">
-    <div className="content">
-      <h4 className="copy">Movie Hub</h4>
-      <div className="d-flex">
-      <button className="btn">
-       <Link to="https://github.com/blessykbabu/bookmyshow"> <img src={git}/></Link>
-        </button>
-        <button className="btn ms-2">
-        <Link to="/projects/movieHub" onClick={() => handleLinkClick(<Bookmyshow />)} style={{color:"white",textDecoration:"none"}}> Read</Link>
-        </button>
-        </div>
-    </div>
-  </div>
-</main> 
-
-
-        <div className="row">{selectedComponent}</div>
-      </div>
-      </div>
       </ScrollTrigger>
     </>
   );
 }
 
-
-
-
-
-
-
-
-
-
-
-
 // <div className="row row-cols-1 row-cols-md-3 g-4">
 // <div className="col">
 //   <div className="card">
-    // <Link to="/projects/ems" onClick={() => handleLinkClick(<Ems />)}>
+// <Link to="/projects/ems" onClick={() => handleLinkClick(<Ems />)}>
 //       {" "}
 //       <img
 //         src={e}
@@ -190,4 +213,4 @@ export default function Projects() {
 //     </Link>
 //   </div>
 // </div>
-// </div> 
+// </div>
