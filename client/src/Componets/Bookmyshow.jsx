@@ -8,7 +8,7 @@ export default function Bookmyshow() {
       <div className="container prj">
         <img src={web} style={{ display: "inline-block" }} />{" "}
         <h5
-          style={{ textAlign: "center", display: "inline-block" }}
+          style={{ textAlign: "center", display: "inline-block",color:"white" }}
           className="m-3"
         >
           Movie Hub
@@ -21,7 +21,7 @@ export default function Bookmyshow() {
           new movies conveniently. The user-friendly interface allows for easy
           submission of movie details, including title, release date, genre, and
           more. </p>
-          <p>Upon visiting the home page, users can explore a curated list of
+          <p style={{textAlign:"justify",color:"#999999"}}>Upon visiting the home page, users can explore a curated list of
           recently released movies, each with its own dedicated page showcasing
           essential information. The platform leverages MongoDB as the backend
           database, ensuring efficient data storage and retrieval.

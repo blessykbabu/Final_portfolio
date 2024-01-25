@@ -13,7 +13,7 @@ export default function Ems() {
         >
           Employee Mnagement system
         </h5>
-        <p style={{color:"#999999"}}>
+        <p style={{color:"#999999",textAlign:"justify"}}>
           Introducing an Employee Management System built with React, Express,
           Node, and MongoDB. This project facilitates easy employee
           administration, allowing admins to create, edit, and delete employee

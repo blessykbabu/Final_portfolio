@@ -6,8 +6,8 @@ export default function Blog(){
     return(
         <>
             <div className="container prj">
-        <img src={web} style={{display:"inline-block"}} /> <h5 style={{textAlign:"center",display:"inline-block"}} className="m-3">Blogs</h5>
-          <p>
+        <img src={web} style={{display:"inline-block"}} /> <h5 style={{textAlign:"center",display:"inline-block",color:"white"}} className="m-3">Blogs</h5>
+          <p style={{color:"#999999",textAlign:"justify"}}>
          This is a dynamic and immersive blogging platform designed to elevate the art of sharing stories and ideas. This web application, built with HTML, Express.js, Node.js, and MongoDB, offers a seamless experience for both content creators and readers.
             <h6 className="m-3">Key Features:</h6>
             <ol>

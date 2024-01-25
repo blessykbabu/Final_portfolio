@@ -5,7 +5,7 @@ export default function Ezy(){
     return(
         <>
           <div className="container prj">
-        <img src={web} style={{display:"inline-block"}} /> <h5 style={{textAlign:"center",display:"inline-block"}} className="m-3">E-commerce</h5>
+        <img src={web} style={{display:"inline-block"}} /> <h5 style={{textAlign:"center",display:"inline-block",color:"white"}} className="m-3">E-commerce</h5>
           <p  style={{ textAlign: "justify", color: "#999999"}}>
             React E-Commerce Platform with MongoDB: Connecting Sellers and
             Buyers Seamlessly. Experience the next level of online commerce with
