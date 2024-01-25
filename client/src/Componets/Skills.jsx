@@ -32,7 +32,7 @@ export default function Skills() {
               SKILLS 
             </h2>
 
-            <div className="container s-div">
+            <div className="container">
               {/* <div className="panel">
                 <div className="ring">
                   <div className="card card1 scard" />
@@ -44,6 +44,8 @@ export default function Skills() {
                   </div>
                 </div>
               </div> */}
+                 <div className="row">
+                    <div className="col-lg-4 col-md-sm-lg-12 mb-3 ">
                  
               <div className="panel">
                 <div className="ring">
@@ -66,6 +68,9 @@ export default function Skills() {
                   </div>
                 </div>
               </div>
+              </div>
+
+               <div className="col-lg-4 mb-3">
               <div className="panel">
                 <div className="ring">
                   <div className="card  scard card2" />
@@ -87,6 +92,8 @@ export default function Skills() {
                   </div>
                 </div>
               </div>
+              </div>
+              <div className="col-lg-4 mb-3">
               <div className="panel">
                 <div className="ring">
                   <div className="card card3 scard" />
@@ -108,9 +115,12 @@ export default function Skills() {
                   </div>
                 </div>
               </div>
+              </div>
+              </div>
 
 
-
+             <div className="row">
+                <div className="col-lg-4 mt-3">
               <div className="panel">
                 <div className="ring">
                   <div className="card  scard card4" />
@@ -132,7 +142,8 @@ export default function Skills() {
                   </div>
                 </div>
               </div>
-
+              </div>
+                <div className="col-lg-4 mt-3">
               <div className="panel">
                 <div className="ring">
                   <div className="card  scard card5" />
@@ -154,8 +165,9 @@ export default function Skills() {
                   </div>
                 </div>
               </div>
+              </div>
 
-
+             </div>
             </div>
             {/* <div className="skills-container">
               {skillsData.map((skill, index) => (

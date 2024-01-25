@@ -204,6 +204,7 @@ export default function Projects() {
             <div className="container">
               <Slider {...settings}>
                 {projectsData.map((project, index) => (
+                  
                   <div key={index}>
                     <div className="card pcard"style={{ backgroundImage: `url(${project.image})` ,height:"300px"}}>
                       <div className="content">

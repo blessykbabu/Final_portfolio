@@ -19,7 +19,6 @@ body {
 
 }
 .ab{
-  /* border: 2px solid red; */
   margin: 10px;
   padding-bottom: 80px;
 }
@@ -48,7 +47,7 @@ nav {
   position: relative; 
   z-index: 1000;
   padding: 10px;
-  margin-left: 5px;
+  margin-left: 50px;
   display: flex;
 }
 .navbar.sticky {
@@ -67,8 +66,8 @@ nav {
   font-size: 32px;
 }
 nav li {
-  margin: 10px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-weight: bolder;
   font-size: 18px;
 }
@@ -87,30 +86,31 @@ nav li {
 }
 .name {
   display: inline-block;
-  padding: 20px;
+  padding: 50px;
   margin: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 .name h3 {
   font-weight: bolder;
-  font-size: 62px;
-  margin-bottom: 20px;
+  font-size:80px;
+  margin-bottom:  5%;
   font-weight:bold !important;
 }
 .name h6 {
-  margin-bottom: 20px;
-  font-weight: 900;
+  /* margin-bottom: 5%; */
+  font-size: 18px;
 }
 .name h5 {
-  margin-bottom: 20%;
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-family: "Poppins", Arial, sans-serif;
 }
 .dev {
   animation: text-shadow 1.5s ease-in-out infinite;
   font-size: 2em;
-  /* font-weight: 800; */
   line-height: 1;
   color: white;
 }
@@ -164,6 +164,7 @@ nav li {
   font-size: 16px;
   position: relative;
   padding-right: 30px;
+  max-width: 150px;
 }
 
 .arrow {
@@ -199,12 +200,15 @@ nav li {
   margin-top: 50px;
 }
 
-.about {
-  line-height: 40px;
+/* .about {
+  line-height: 30px;
   font-size: 16px;
   font-family: "Poppins", Arial, sans-serif;
+  border: 2px solid red;
+  background-color: #2cfcfd;
+  display: block;
 
-}
+} */
 
 /* education */
 .ed {
@@ -381,8 +385,8 @@ nav li {
   font-size: xx-large;
 }
 .card h5,
-h6,
-p {
+h6
+ {
   font-weight: bold;
   margin: 30px;
 }

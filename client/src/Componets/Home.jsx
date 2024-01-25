@@ -16,7 +16,7 @@ export default function Home() {
       <Element name="home">
         <div className="container-fluid home animate__animated animate__slideInDown animate__duration-20s animate__delay-1s">
         <div className="row ">
-            <div className="col name">
+            <div className="col-lg-6 name">
               <h6>
                 <span style={{ color: "#FFBD39" }}>Hello !</span>
               </h6>
@@ -35,18 +35,9 @@ export default function Home() {
               <button className="open-cv-button mb-5 " onClick={openResume}>
                 Open CV <span className="arrow">&#8594;</span>
               </button>
-              {/* <p id="text" style={{color:"#999999"}}>
-              I am a dedicated MERN stack developer with a strong foundation
-              gained through a rewarding internship. My passion for software
-              development drives my commitment
-            {/* </p>
-            <p id="text2" style={{color:"#999999"}}> */}
-              {/* to excellence. Proficient in MongoDB, Express.js, React, and
-              Node.js, I bring hands-on experience and a proactive mindset to
-              contribute effectively to dynamic projects.
-            </p> */}
+             
             </div>
-            <div className="col img">{/* <img src={pic} /> */}</div>
+            <div className="col-lg-6 img">{/* <img src={pic} /> */}</div>
           </div>
           {/* <div className="row ">
             <p
