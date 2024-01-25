@@ -183,9 +183,9 @@ export default function Projects() {
   ];
 
   const settings = {
-    infinite: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
   };
 
