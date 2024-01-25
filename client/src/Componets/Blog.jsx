@@ -37,7 +37,6 @@ export default function Blog(){
              
             </ol>
           </p>
-          <Link  to="https://github.com/blessykbabu/bloger"><img src={git} height={50} /></Link>
 
         </div> 
         

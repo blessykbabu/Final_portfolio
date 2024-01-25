@@ -26,9 +26,7 @@ export default function Bookmyshow() {
           essential information. The platform leverages MongoDB as the backend
           database, ensuring efficient data storage and retrieval.
         </p>
-        <Link to="https://github.com/blessykbabu/bookmyshow">
-          <img src={git} height={50} />
-        </Link>
+       
       </div>
     </>
   );

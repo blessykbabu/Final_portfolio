@@ -46,7 +46,7 @@ export default function Projects() {
               
               <div className="card pcard">
                 <div className="content">
-                  <h4 className="copy">Employee Managemnet System</h4>
+                  <h4 className="copy">HrWise</h4>
                   <div className="d-flex ">
                     <button className="btn">
                       <Link to="https://github.com/blessykbabu/ems_production">
@@ -139,8 +139,9 @@ export default function Projects() {
             </div>
 
           </div>
+          <div className="row">{selectedComponent}</div>
+
         </div>
-        <div className="row">{selectedComponent}</div>
 
       </ScrollTrigger>
     </>

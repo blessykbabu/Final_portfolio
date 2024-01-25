@@ -71,11 +71,10 @@ export default function Ems() {
               maintaining data hygiene and compliance. Enhance workforce
               management with Employee Management System, featuring soft
               deletion for secure record-keeping and streamlined employee
-              lifecycle management
+              lifecycle management.
             </dl>
           </li>
         </ol>
-        <Link  to="https://github.com/blessykbabu/ems_production"><img src={git} height={50}/></Link>
       </div>
     </>
   );

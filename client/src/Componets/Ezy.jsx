@@ -67,7 +67,6 @@ export default function Ezy(){
               </p>
             </ol>
           </p>
-          <Link  to="https://github.com/blessykbabu/e-prjct"><img src={git} height={50}/></Link>
 
         </div> 
 

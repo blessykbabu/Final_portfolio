@@ -6,7 +6,7 @@ export default function Navabr(){
         <>
         <nav className="navbar navbar-expand-lg sticky">
   <div className="container-fluid ">
-    <Link className="navbar-brand nv ms-5 nb" >
+    <Link className="navbar-brand nv nb" >
       BLESSY
     </Link>
     <button
@@ -18,9 +18,9 @@ export default function Navabr(){
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span className="navbar-toggler-icon" />
+      <span className="navbar-toggler-icon " />
     </button>
-    <div className="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+    <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
         <li className="nav-item">
         <ScrollLink
