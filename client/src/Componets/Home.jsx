@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import pic from "../images/pic.png"
+import im from "../images/im.png";
 export default function Home() {
   const openResume = () => {
     const resumePath = "src/files/BLESSY K BABU.pdf";
@@ -39,7 +40,7 @@ export default function Home() {
              
             </div>
             <div className="col img">
-            <img class="framed" src={pic} alt="random image"/>
+            <img class="framed" src={im} width={375} height={555} alt="random image"/>
               </div>
           </div>
           {/* <div className="row ">
