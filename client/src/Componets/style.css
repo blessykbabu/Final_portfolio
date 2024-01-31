@@ -167,6 +167,10 @@ background: transparent;
   font-family: "Poppins", Arial, sans-serif;
 }
 
+
+
+
+
 :root {
   --red:#ffbd39 ;
 }
@@ -179,7 +183,6 @@ img.framed {
 }
 img{
   border-radius:40%;
-  opacity: 0.5;
 
 }
 img:hover{

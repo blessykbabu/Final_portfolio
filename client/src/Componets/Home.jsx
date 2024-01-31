@@ -9,7 +9,7 @@ import pic from "../images/pic.png"
 import im from "../images/im.png";
 export default function Home() {
   const openResume = () => {
-    const resumePath = "src/files/BLESSY K BABU.pdf";
+    const resumePath = "src/files/BlessyKBabu.pdf";
 
     window.open(resumePath, "_blank");
   };
@@ -34,16 +34,16 @@ export default function Home() {
               <h5 className="dev" style={{ color: "white" }}>
                 FULL STACK DEVELOPER
               </h5>
-              <button className="open-cv-button mb-5 " onClick={openResume}>
+              <button className="open-cv-button  " onClick={openResume}>
                 Open CV <span className="arrow">&#8594;</span>
               </button>
              
             </div>
             <div className="col img">
-            <img class="framed" src={im} width={375} height={555} alt="random image"/>
+            {/* <img class="framed" src={im} width={375} height={555} alt="random image"/> */}
               </div>
           </div>
-          {/* <div className="row ">
+          <div className="row ">
             <p
               id="text"
               className="about"
@@ -56,7 +56,7 @@ export default function Home() {
               experience and a proactive mindset to contribute effectively to
               dynamic projects.
             </p>
-          </div> */}
+          </div>
         </div>
       </Element>
       <Element name="about">
