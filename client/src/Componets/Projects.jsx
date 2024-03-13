@@ -177,7 +177,7 @@ export default function Projects() {
   const projectsData = [
     { name: "HrWise",image:"https://i.pinimg.com/564x/c9/e3/a0/c9e3a0019bd2e2ab03178b6abdf5dd81.jpg"
     , component: <Ems />, link: "https://github.com/blessykbabu/ems_production" },
-    { name: "E-Commerce",image:"https://i.pinimg.com/564x/92/e7/c3/92e7c3fb03b219f3ac28ed08bdc3f3f9.jpg",component: <Ezy />, link: "https://github.com/blessykbabu/e-prjct" },
+    { name: "E-Commerce",image:"https://i.pinimg.com/564x/92/e7/c3/92e7c3fb03b219f3ac28ed08bdc3f3f9.jpg",component: <Ezy />, link: "https://github.com/blessykbabu/ecommerce" },
     { name: "Blog",image:"https://i.pinimg.com/564x/a3/e6/82/a3e6828eca570fbb9c0c56be8950a062.jpg", component: <Blog />, link: "https://github.com/blessykbabu/bloger" },
     { name: "Movie Hub",image:"https://i.pinimg.com/564x/c5/92/a1/c592a1f0d8de48c90266755226557263.jpg", component: <Bookmyshow />, link: "https://github.com/blessykbabu/bookmyshow" },
   ];

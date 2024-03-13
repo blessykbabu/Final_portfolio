@@ -122,7 +122,7 @@ export default function Skills() {
                     <div className="slide">
                       {/* <h6 className="para">Latest Deals from Heathrow</h6> */}
                       <div className="line">
-                        <h6 className="para">90%</h6>{" "}
+                        <h6 className="para">80%</h6>{" "}
                         <i className="fa fa-plane" aria-hidden="true" />
                         {/* <h6 className="para">£999</h6> */}
                       </div>
@@ -145,7 +145,7 @@ export default function Skills() {
                     <div className="slide">
                       {/* <h6 className="para">Latest Deals from Heathrow</h6> */}
                       <div className="line">
-                        <h6 className="para">90%</h6>{" "}
+                        <h6 className="para">80%</h6>{" "}
                         <i className="fa fa-plane" aria-hidden="true" />
                         {/* <h6 className="para">£999</h6> */}
                       </div>
@@ -167,7 +167,7 @@ export default function Skills() {
                   <div className="border">
                     <div className="slide">
                       <div className="line">
-                        <h6 className="para">85%</h6>{" "}
+                        <h6 className="para">80%</h6>{" "}
                         <i className="fa fa-plane" aria-hidden="true" />
                       </div>
                     
@@ -215,7 +215,7 @@ export default function Skills() {
                     <div className="slide">
                       {/* <h6 className="para">Latest Deals from Heathrow</h6> */}
                       <div className="line">
-                        <h6 className="para">90%</h6>{" "}
+                        <h6 className="para">75%</h6>{" "}
                         <i className="fa fa-plane" aria-hidden="true" />
                         {/* <h6 className="para">£999</h6> */}
                       </div>
@@ -237,7 +237,7 @@ export default function Skills() {
                   <div className="border">
                     <div className="slide">
                       <div className="line">
-                        <h6 className="para">85%</h6>{" "}
+                        <h6 className="para">90%</h6>{" "}
                         <i className="fa fa-plane" aria-hidden="true" />
                       </div>
                     
@@ -262,7 +262,7 @@ export default function Skills() {
                     <div className="slide">
                       {/* <h6 className="para">Latest Deals from Heathrow</h6> */}
                       <div className="line">
-                        <h6 className="para">90%</h6>{" "}
+                        <h6 className="para">85%</h6>{" "}
                         <i className="fa fa-plane" aria-hidden="true" />
                         {/* <h6 className="para">£999</h6> */}
                       </div>
@@ -284,7 +284,7 @@ export default function Skills() {
                   <div className="border">
                     <div className="slide">
                       <div className="line">
-                        <h6 className="para">85%</h6>{" "}
+                        <h6 className="para">95%</h6>{" "}
                         <i className="fa fa-plane" aria-hidden="true" />
                       </div>
                     

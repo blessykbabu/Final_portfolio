@@ -43,11 +43,12 @@ export default function Home() {
             {/* <img class="framed" src={im} width={375} height={555} alt="random image"/> */}
               </div>
           </div>
-          <div className="row ">
+          <div className="row m-3 ">
             <p
               id="text"
               className="about"
               style={{ color: "#999999", textAlign: "justify" }}
+              
             >
               I am a dedicated MERN stack developer with a strong foundation
               gained through a rewarding internship. My passion for software

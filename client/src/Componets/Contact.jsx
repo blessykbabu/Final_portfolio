@@ -42,7 +42,7 @@ export default function Contact() {
           <div className="row">
             <div className="col mt-2">
               <div className="card ad" style={{ width: "18rem" }}>
-                <img src={loc} height={30} width={30} alt="..." />
+                <img src={loc} className="m-3"   height={30} width={30} alt="..." />
                 <div className="card-body">
                   <p style={{color:"white"}} className="card-text">
                    Kaleeckal,Elimullumplackal P O,Avolikuzhy
@@ -52,7 +52,7 @@ export default function Contact() {
             </div>
             <div className="col mt-2">
               <div className="card ad" style={{ width: "18rem" }}>
-                <img src={phn} height={30} width={30} alt="..." />
+                <img src={phn} className="m-3" height={30} width={30} alt="..." />
                 <div className="card-body">
                   <p  style={{color:"white"}} className="card-text">
                     +91790230156
@@ -62,7 +62,7 @@ export default function Contact() {
             </div>
             <div className="col mt-2">
               <div className="card ad" style={{ width: "18rem" }}>
-                <img src={em}  height={30} width={30} alt="..." />
+                <img src={em} className="m-3"  height={30} width={30} alt="..." />
                 <div className="card-body">
                   <p  style={{color:"white"}}className="card-text">
                    blessykbabu5@gmail.com
